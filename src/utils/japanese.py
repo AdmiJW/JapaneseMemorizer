@@ -91,9 +91,7 @@ GOJUON_CHART = (
     # y row
     (
         Character('や','ヤ','ya'),
-        Character('い','イ','i'),
         Character('ゆ','ユ','yu'),
-        Character('え','エ','e'),
         Character('よ','ヨ','yo')
     ),
     # r row
@@ -107,9 +105,6 @@ GOJUON_CHART = (
     # w row
     (
         Character('わ','ワ','wa'),
-        Character('い','イ','i'),
-        Character('う','ウ','u'),
-        Character('え','エ','e'),
         Character('を','ヲ','wo')
     ),
     # n row

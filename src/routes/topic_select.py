@@ -23,6 +23,7 @@ def topic_select_route(stdscr):
     while return_to >= ReturnTo.TOPIC_SELECT:
         # Clear
         stdscr.clear()
+        stdscr.refresh()
 
         # header
         draw_header(
@@ -37,6 +38,7 @@ def topic_select_route(stdscr):
             'Memorizing Hiragana and Katakana is challenging to Japanese newbies. This program aims to '
             'ease this process by putting your knowledge to test. REPETITION IS KEY',
         )
+        desc_win.refresh()
 
         # Prompt
         prompt_win.clear()
@@ -45,6 +47,7 @@ def topic_select_route(stdscr):
             "[Use ENTER to select]",
             Color.GREEN | curses.A_BOLD
         )
+        prompt_win.refresh()
 
         stdscr.refresh()
 
